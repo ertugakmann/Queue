@@ -9,7 +9,7 @@ namespace Queue
 {
     class Node
     {
-        private int data { get; set; }
+        public int data { get; set; }
         public Node next { get; set; }
 
         public Node(int data)
